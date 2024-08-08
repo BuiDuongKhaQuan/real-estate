@@ -1,0 +1,13 @@
+// custom.scss
+
+// Import Bootstrap variables so you can override them
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Override Bootstrap variables here
+$primary: #ff5733;
+$font-size-base: 1.1rem;
+
+// Import Bootstrap to apply your customizations
+@import "~bootstrap/scss/bootstrap";
